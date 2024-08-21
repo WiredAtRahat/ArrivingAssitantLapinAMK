@@ -4,23 +4,23 @@ import { Heading } from '@/components/Heading'
 const guides = [
   {
     href: '/authentication',
-    name: 'Authentication',
-    description: 'Learn how to authenticate your API requests.',
+    name: 'Before Arrival',
+    description: 'Get ready for your move by exploring options for university housing, private rentals, and temporary accommodation like hostels or Airbnb.',
   },
   {
     href: '/pagination',
-    name: 'Pagination',
-    description: 'Understand how to work with paginated responses.',
+    name: 'First Steps After Arrival',
+    description: 'Learn how to register for DVV, Identity Card, set up your mobile services and internet, and open a bank account.',
   },
   {
     href: '/errors',
-    name: 'Errors',
+    name: 'Transportation and Mobility',
     description:
-      'Read about the different types of errors returned by the API.',
+      'Discover how to use public buses, buy a car or bike, use public scooters, and understand Finnish driving license requirements.',
   },
   {
     href: '/webhooks',
-    name: 'Webhooks',
+    name: 'Settling In',
     description:
       'Learn how to programmatically configure webhooks for your app.',
   },

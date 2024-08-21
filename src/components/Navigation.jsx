@@ -195,23 +195,22 @@ export const navigation = [
   {
     title: 'Guides',
     links: [
-      { title: 'Introduction', href: '/' },
-      { title: 'Quickstart', href: '/quickstart' },
-      { title: 'SDKs', href: '/sdks' },
-      { title: 'Authentication', href: '/authentication' },
-      { title: 'Pagination', href: '/pagination' },
-      { title: 'Errors', href: '/errors' },
-      { title: 'Webhooks', href: '/webhooks' },
+      { title: 'Before Arrival', href: '/Before-Arrival' },
+      { title: 'Arrival in Lapland', href: '#' },
+      { title: 'First Steps After Arrival', href: '#' },
+      { title: 'Transportation and Mobility', href: '#' },
+      { title: 'Settling In', href: '#' },
+      { title: 'Day-to-Day Living', href: '#' },
+      { title: 'Financial Management', href: '#' },
+      { title: 'FAQs and Resources', href: '#' },
     ],
   },
+
   {
-    title: 'Resources',
+    title: 'Feedbacks',
     links: [
-      { title: 'Contacts', href: '/contacts' },
-      { title: 'Conversations', href: '/conversations' },
-      { title: 'Messages', href: '/messages' },
-      { title: 'Groups', href: '/groups' },
-      { title: 'Attachments', href: '/attachments' },
+      { title: 'Give Feedback', href: '#' },
+      { title: 'Contact Us', href: 'mailto:arrival-assistant@lapinamk.fi' },
     ],
   },
 ]

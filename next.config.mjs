@@ -1,5 +1,4 @@
 import nextMDX from '@next/mdx'
-
 import { recmaPlugins } from './src/mdx/recma.mjs'
 import { rehypePlugins } from './src/mdx/rehype.mjs'
 import { remarkPlugins } from './src/mdx/remark.mjs'
@@ -20,6 +19,10 @@ const nextConfig = {
     outputFileTracingIncludes: {
       '/**/*': ['./src/app/**/*.mdx'],
     },
+  },
+  images: {
+    domains: [], // Add external domains if needed
+    formats: ['image/avif', 'image/webp'], // Optional formats
   },
 }
 

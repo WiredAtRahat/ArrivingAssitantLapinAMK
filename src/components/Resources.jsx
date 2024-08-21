@@ -9,14 +9,16 @@ import { ChatBubbleIcon } from '@/components/icons/ChatBubbleIcon'
 import { EnvelopeIcon } from '@/components/icons/EnvelopeIcon'
 import { UserIcon } from '@/components/icons/UserIcon'
 import { UsersIcon } from '@/components/icons/UsersIcon'
+import { SquaresPlusIcon } from './icons/SquaresPlusIcon'
+import { PaperClipIcon } from './icons/PaperClipIcon'
 
 const resources = [
   {
     href: '/contacts',
-    name: 'Contacts',
+    name: 'Before Arrival',
     description:
-      'Learn about the contact model and how to create, retrieve, update, delete, and list contacts.',
-    icon: UserIcon,
+      'Get ready for your move by exploring options for university housing, private rentals, and temporary accommodation like hostels or Airbnb.',
+    icon: PaperClipIcon,
     pattern: {
       y: 16,
       squares: [
@@ -27,10 +29,10 @@ const resources = [
   },
   {
     href: '/conversations',
-    name: 'Conversations',
+    name: 'Arrival in Rovaniemi',
     description:
-      'Learn about the conversation model and how to create, retrieve, update, delete, and list conversations.',
-    icon: ChatBubbleIcon,
+      'Find out how to get from the airport to the city and get acquainted with Rovaniemi’s layout and transportation options.',
+    icon: PaperClipIcon,
     pattern: {
       y: -6,
       squares: [
@@ -41,10 +43,10 @@ const resources = [
   },
   {
     href: '/messages',
-    name: 'Messages',
+    name: 'First Steps After Arrival',
     description:
-      'Learn about the message model and how to create, retrieve, update, delete, and list messages.',
-    icon: EnvelopeIcon,
+      'Learn how to register for your Finnish personal identity code, set up your mobile services and internet, and open a bank account.',
+    icon: PaperClipIcon,
     pattern: {
       y: 32,
       squares: [
@@ -55,10 +57,58 @@ const resources = [
   },
   {
     href: '/groups',
-    name: 'Groups',
+    name: 'Transportation and Mobility',
     description:
-      'Learn about the group model and how to create, retrieve, update, delete, and list groups.',
-    icon: UsersIcon,
+      'Discover how to use public buses, buy a car or bike, use public scooters, and understand Finnish driving license requirements.',
+    icon: PaperClipIcon,
+    pattern: {
+      y: 22,
+      squares: [[0, 1]],
+    },
+  },
+
+  {
+    href: '/groups',
+    name: 'Settling In',
+    description:
+      'Find grocery stores, second-hand shops, and essentials for your new home. Get information on healthcare services and mental health support.',
+    icon: PaperClipIcon,
+    pattern: {
+      y: 22,
+      squares: [[0, 1]],
+    },
+  },
+
+  {
+    href: '/groups',
+    name: 'Day-to-Day Living',
+    description:
+      'Explore local markets, dining options, food delivery services, and recreational activities like hiking and festivals.',
+    icon: PaperClipIcon,
+    pattern: {
+      y: 22,
+      squares: [[0, 1]],
+    },
+  },
+
+  {
+    href: '/groups',
+    name: 'Financial Management',
+    description:
+      'Get tips on budgeting, finding part-time work, and accessing student discounts.',
+    icon: PaperClipIcon,
+    pattern: {
+      y: 22,
+      squares: [[0, 1]],
+    },
+  },
+
+  {
+    href: '/groups',
+    name: 'FAQs and Resources',
+    description:
+      'Find answers to common questions, read student testimonials, and access important contacts.',
+    icon: PaperClipIcon,
     pattern: {
       y: 22,
       squares: [[0, 1]],
@@ -90,7 +140,7 @@ function ResourcePattern({ mouseX, mouseY, ...gridProps }) {
         />
       </div>
       <motion.div
-        className="absolute inset-0 rounded-2xl bg-gradient-to-r from-[#D7EDEA] to-[#F4FBDF] opacity-0 transition duration-300 group-hover:opacity-100 dark:from-[#202D2E] dark:to-[#303428]"
+        className="absolute inset-0 rounded-2xl bg-gradient-to-r from-[#FF5032] to-[#F4FBDF] opacity-0 transition duration-300 group-hover:opacity-100 dark:from-[#202D2E] dark:to-[#303428]"
         style={style}
       />
       <motion.div
@@ -147,7 +197,7 @@ export function Resources() {
   return (
     <div className="my-16 xl:max-w-none">
       <Heading level={2} id="resources">
-        Resources
+        Guides
       </Heading>
       <div className="not-prose mt-4 grid grid-cols-1 gap-8 border-t border-zinc-900/5 pt-10 sm:grid-cols-2 xl:grid-cols-4 dark:border-white/5">
         {resources.map((resource) => (
