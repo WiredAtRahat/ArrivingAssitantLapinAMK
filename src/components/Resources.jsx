@@ -14,7 +14,7 @@ import { PaperClipIcon } from './icons/PaperClipIcon'
 
 const resources = [
   {
-    href: '/contacts',
+    href: '/Before-Arrival',
     name: 'Before Arrival',
     description:
       'Get ready for your move by exploring options for university housing, private rentals, and temporary accommodation like hostels or Airbnb.',
@@ -28,10 +28,10 @@ const resources = [
     },
   },
   {
-    href: '/conversations',
-    name: 'Arrival in Rovaniemi',
+    href: '/Arrival-in-Lapland',
+    name: 'Arrival in Lapland',
     description:
-      'Find out how to get from the airport to the city and get acquainted with Rovaniemi’s layout and transportation options.',
+      'Find out how to get from the airport to the city and get acquainted with Lapland’s layout and transportation options.',
     icon: PaperClipIcon,
     pattern: {
       y: -6,
@@ -42,7 +42,7 @@ const resources = [
     },
   },
   {
-    href: '/messages',
+    href: '/First-Steps-After-Arrival',
     name: 'First Steps After Arrival',
     description:
       'Learn how to register for your Finnish personal identity code, set up your mobile services and internet, and open a bank account.',
@@ -56,7 +56,7 @@ const resources = [
     },
   },
   {
-    href: '/groups',
+    href: '/Transportation-and-Mobility',
     name: 'Transportation and Mobility',
     description:
       'Discover how to use public buses, buy a car or bike, use public scooters, and understand Finnish driving license requirements.',
@@ -68,7 +68,7 @@ const resources = [
   },
 
   {
-    href: '/groups',
+    href: '#',
     name: 'Settling In',
     description:
       'Find grocery stores, second-hand shops, and essentials for your new home. Get information on healthcare services and mental health support.',
@@ -80,7 +80,7 @@ const resources = [
   },
 
   {
-    href: '/groups',
+    href: '#',
     name: 'Day-to-Day Living',
     description:
       'Explore local markets, dining options, food delivery services, and recreational activities like hiking and festivals.',
@@ -92,7 +92,7 @@ const resources = [
   },
 
   {
-    href: '/groups',
+    href: '#',
     name: 'Financial Management',
     description:
       'Get tips on budgeting, finding part-time work, and accessing student discounts.',
@@ -104,7 +104,7 @@ const resources = [
   },
 
   {
-    href: '/groups',
+    href: '#',
     name: 'FAQs and Resources',
     description:
       'Find answers to common questions, read student testimonials, and access important contacts.',

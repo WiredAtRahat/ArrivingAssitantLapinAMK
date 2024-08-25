@@ -196,9 +196,9 @@ export const navigation = [
     title: 'Guides',
     links: [
       { title: 'Before Arrival', href: '/Before-Arrival' },
-      { title: 'Arrival in Lapland', href: '#' },
-      { title: 'First Steps After Arrival', href: '#' },
-      { title: 'Transportation and Mobility', href: '#' },
+      { title: 'Arrival in Lapland', href: '/Arrival-in-Lapland' },
+      { title: 'First Steps After Arrival', href: '/First-Steps-After-Arrival' },
+      { title: 'Transportation and Mobility', href: '/Transportation-and-Mobility' },
       { title: 'Settling In', href: '#' },
       { title: 'Day-to-Day Living', href: '#' },
       { title: 'Financial Management', href: '#' },
@@ -207,10 +207,22 @@ export const navigation = [
   },
 
   {
-    title: 'Feedbacks',
+    title: 'Services',
+    links: [
+      { title: 'Student Affairs Offices', href: 'https://www.lapinamk.fi/en/Students/Student-Support-Services/Student-affairs-offices' },
+      { title: 'Health Care Services', href: 'https://www.lapinamk.fi/en/Students/Student-Support-Services/Wellfare-services' },
+      { title: 'IT Services', href: 'https://luc.service-now.com/lucportal' },
+      { title: 'Library', href: 'https://luc.service-now.com/lucportal' },
+      { title: 'eLearning Tools', href: 'https://eoppimispalvelut.fi/?lang=eng' },
+    ],
+  },
+
+  {
+    title: 'Feedbacks & Contacts',
     links: [
       { title: 'Give Feedback', href: '#' },
-      { title: 'Contact Us', href: 'mailto:arrival-assistant@lapinamk.fi' },
+      { title: 'Contact Us', href: 'mailto:arrival.assistant@lapinamk.fi.' },
+      { title: 'Emergency Contacts', href: '#' },
     ],
   },
 ]
@@ -219,9 +231,6 @@ export function Navigation(props) {
   return (
     <nav {...props}>
       <ul role="list">
-        <TopLevelNavItem href="/">API</TopLevelNavItem>
-        <TopLevelNavItem href="#">Documentation</TopLevelNavItem>
-        <TopLevelNavItem href="#">Support</TopLevelNavItem>
         {navigation.map((group, groupIndex) => (
           <NavigationGroup
             key={group.title}
