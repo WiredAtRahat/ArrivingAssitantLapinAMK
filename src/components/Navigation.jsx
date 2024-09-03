@@ -199,10 +199,10 @@ export const navigation = [
       { title: 'Arrival in Lapland', href: '/Arrival-in-Lapland' },
       { title: 'First Steps After Arrival', href: '/First-Steps-After-Arrival' },
       { title: 'Transportation and Mobility', href: '/Transportation-and-Mobility' },
-      { title: 'Settling In', href: '#' },
-      { title: 'Day-to-Day Living', href: '#' },
-      { title: 'Financial Management', href: '#' },
-      { title: 'FAQs and Resources', href: '#' },
+      { title: 'Settling In', href: '/Settling-In' },
+      { title: 'Day-to-Day Living', href: '/Day-to-Day-Living' },
+      { title: 'Financial Management', href: '/Financial-Management' },
+      { title: 'FAQs and Resources', href: '/FAQs-and-Resources' },
     ],
   },
 
@@ -221,8 +221,8 @@ export const navigation = [
     title: 'Feedbacks & Contacts',
     links: [
       { title: 'Give Feedback', href: '#' },
-      { title: 'Contact Us', href: 'mailto:arrival.assistant@lapinamk.fi.' },
-      { title: 'Emergency Contacts', href: '#' },
+      { title: 'Contact Us', href: '/Settling-In' },
+      { title: 'Emergency Contacts', href: 'tel:112' },
     ],
   },
 ]

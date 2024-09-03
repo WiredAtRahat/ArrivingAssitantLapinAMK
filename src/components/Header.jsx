@@ -75,9 +75,17 @@ export const Header = forwardRef(function Header({ className, ...props }, ref) {
           <ThemeToggle />
         </div>
         <div className="hidden min-[416px]:contents">
-          <Button href="mailto:arrival.assistant@lapinamk.fi">Contact</Button>
+          <Button href="/Contact-Us">Contact</Button>
         </div>
       </div>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-QHRKW2NDDX"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-QHRKW2NDDX');
+      </script>
     </motion.div>
   )
 })

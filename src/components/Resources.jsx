@@ -68,7 +68,7 @@ const resources = [
   },
 
   {
-    href: '#',
+    href: '/Settling-In',
     name: 'Settling In',
     description:
       'Find grocery stores, second-hand shops, and essentials for your new home. Get information on healthcare services and mental health support.',
@@ -80,7 +80,7 @@ const resources = [
   },
 
   {
-    href: '#',
+    href: '/Day-to-Day-Living',
     name: 'Day-to-Day Living',
     description:
       'Explore local markets, dining options, food delivery services, and recreational activities like hiking and festivals.',
@@ -92,7 +92,7 @@ const resources = [
   },
 
   {
-    href: '#',
+    href: '/Financial-Management#',
     name: 'Financial Management',
     description:
       'Get tips on budgeting, finding part-time work, and accessing student discounts.',
@@ -104,7 +104,7 @@ const resources = [
   },
 
   {
-    href: '#',
+    href: '/FAQs-and-Resources',
     name: 'FAQs and Resources',
     description:
       'Find answers to common questions, read student testimonials, and access important contacts.',
