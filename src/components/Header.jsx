@@ -81,7 +81,7 @@ export const Header = forwardRef(function Header({ className, ...props }, ref) {
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-QHRKW2NDDX"></script>
       <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+        function gtag(){dataLayer.push(arguments)}
         gtag('js', new Date());
 
         gtag('config', 'G-QHRKW2NDDX');
