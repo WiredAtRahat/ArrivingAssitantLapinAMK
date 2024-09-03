@@ -78,14 +78,18 @@ export const Header = forwardRef(function Header({ className, ...props }, ref) {
           <Button href="/Contact-Us">Contact</Button>
         </div>
       </div>
+      {/* Google Analytics */}
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-QHRKW2NDDX"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments)}
-        gtag('js', new Date());
-
-        gtag('config', 'G-QHRKW2NDDX');
-      </script>
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-QHRKW2NDDX');
+          `,
+        }}
+      />
     </motion.div>
   )
 })
