@@ -221,7 +221,7 @@ export const navigation = [
     title: 'Feedbacks & Contacts',
     links: [
       { title: 'Give Feedback', href: '#' },
-      { title: 'Contact Us', href: '/Settling-In' },
+      { title: 'Contact Us', href: '/Contact-us' },
       { title: 'Emergency Contacts', href: 'tel:112' },
     ],
   },
